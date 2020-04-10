@@ -1,0 +1,140 @@
+POST http://localhost:8080/Course_war_exploded/signIn
+Content-Type: application/json
+
+{
+  "email": "ainur.gatin@yandex.ru",
+  "password": "123"
+}
+
+<> 2020-04-09T044431.200.json
+
+###
+
+POST http://localhost:8080/Course_war_exploded/signIn
+Content-Type: application/json
+
+{
+  "email": "ainur.gatin@yandex.ru",
+  "password": "123"
+}
+
+<> 2020-04-09T043505.200.json
+
+###
+
+POST http://localhost:8080/Course_war_exploded/signIn
+Content-Type: application/json
+
+{
+  "email": "ainur.gatingatin@yandex.ru",
+  "password": "ainur"
+}
+
+###
+
+POST http://localhost:8080/Course_war_exploded/signIn
+Content-Type: application/json
+
+{
+  "email": "ainur.gatin@yandex.ru",
+  "password": "123"
+}
+
+<> 2020-04-09T043406.200.json
+
+###
+
+POST http://localhost:8080/Course_war_exploded/signIn
+Content-Type: application/json
+
+{
+  "email": "ainur.gatingatin@yandex.ru",
+  "password": "ainur"
+}
+
+###
+
+POST http://localhost:8080/Course_war_exploded/signIn
+Content-Type: application/json
+
+{
+  "email": "ainurgatin@gmail.com",
+  "password": "ainur"
+}
+
+###
+
+POST http://localhost:8080/Course_war_exploded/signIn
+Content-Type: application/json
+
+{
+  "email": "ainurgatin@gmail.com",
+  "password": "ainur"
+}
+
+###
+
+POST http://localhost:8080/Course_war_exploded/signIn
+Content-Type: application/json
+
+{
+  "email": "ainurgatin@gmail.com",
+  "password": "ainur"
+}
+
+<> 2020-04-09T041717.500.html
+
+###
+
+POST http://localhost:8080/Course_war_exploded/signIn
+Content-Type: application/json
+
+{
+  "email": "ainurgatin@gmail.com",
+  "password": "ainur"
+}
+
+<> 2020-04-09T041402.500.html
+
+###
+
+POST http://localhost:8080/Course_war_exploded/signIn
+Content-Type: application/json
+
+{
+  "email": "ainurgatin@gmail.com",
+  "password": "ainur"
+}
+
+###
+
+POST http://localhost:8080/Course_war_exploded/signIn
+Content-Type: application/json
+
+{
+  "email": "ainurgatin@gmail.com",
+  "password": "ainur"
+}
+
+###
+
+POST http://localhost:8080/Course_war_exploded/signIn
+Content-Type: application/json
+
+{
+  "email": "ainurgatin@gmail.com",
+  "password": "ainur"
+}
+
+###
+
+POST http://localhost:8080/Course_war_exploded/signIn
+Content-Type: application/json
+
+{
+  "email": "ainurgatin@gmail.com",
+  "password": "ainur"
+}
+
+###
+

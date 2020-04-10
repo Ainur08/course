@@ -1,0 +1,9 @@
+POST http://localhost:8080/Course_war_exploded/signIn
+Content-Type: application/json
+
+{
+  "email": "ainur.gatin@yandex.ru",
+  "password": "123"
+}
+
+###
