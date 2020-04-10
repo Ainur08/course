@@ -1,0 +1,16 @@
+ru\itis\security\security\details\UserDetailsImpl.class
+ru\itis\security\listeners\SpringContextServletContextListener.class
+ru\itis\security\security\config\WebSecurityConfig.class
+ru\itis\security\models\User.class
+ru\itis\security\dto\UserDto.class
+ru\itis\security\repositories\CrudRepository.class
+ru\itis\security\configs\ApplicationContextConfig.class
+ru\itis\security\services\SignUpService.class
+ru\itis\security\services\SignUpServiceImpl.class
+ru\itis\security\models\User$UserBuilder.class
+ru\itis\security\dto\UserDto$UserDtoBuilder.class
+ru\itis\security\repositories\UsersRepository.class
+ru\itis\security\security\details\UserDetailsServiceImpl.class
+ru\itis\security\repositories\UsersRepositoryImpl.class
+ru\itis\security\controller\SignInController.class
+ru\itis\security\controller\SignUpController.class

@@ -1,0 +1,14 @@
+C:\Users\Айнурка\Desktop\semestr_2\Securities\src\main\java\ru\itis\security\configs\ApplicationContextConfig.java
+C:\Users\Айнурка\Desktop\semestr_2\Securities\src\main\java\ru\itis\security\repositories\CrudRepository.java
+C:\Users\Айнурка\Desktop\semestr_2\Securities\src\main\java\ru\itis\security\repositories\UsersRepository.java
+C:\Users\Айнурка\Desktop\semestr_2\Securities\src\main\java\ru\itis\security\listeners\SpringContextServletContextListener.java
+C:\Users\Айнурка\Desktop\semestr_2\Securities\src\main\java\ru\itis\security\services\SignUpService.java
+C:\Users\Айнурка\Desktop\semestr_2\Securities\src\main\java\ru\itis\security\models\User.java
+C:\Users\Айнурка\Desktop\semestr_2\Securities\src\main\java\ru\itis\security\security\config\WebSecurityConfig.java
+C:\Users\Айнурка\Desktop\semestr_2\Securities\src\main\java\ru\itis\security\security\details\UserDetailsImpl.java
+C:\Users\Айнурка\Desktop\semestr_2\Securities\src\main\java\ru\itis\security\controller\SignInController.java
+C:\Users\Айнурка\Desktop\semestr_2\Securities\src\main\java\ru\itis\security\dto\UserDto.java
+C:\Users\Айнурка\Desktop\semestr_2\Securities\src\main\java\ru\itis\security\repositories\UsersRepositoryImpl.java
+C:\Users\Айнурка\Desktop\semestr_2\Securities\src\main\java\ru\itis\security\services\SignUpServiceImpl.java
+C:\Users\Айнурка\Desktop\semestr_2\Securities\src\main\java\ru\itis\security\controller\SignUpController.java
+C:\Users\Айнурка\Desktop\semestr_2\Securities\src\main\java\ru\itis\security\security\details\UserDetailsServiceImpl.java
