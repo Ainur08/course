@@ -16,7 +16,8 @@
       </configuration>
     </facet>
     <facet type="Spring" name="Spring">
-      <configuration process_explicitly_annotated="false">
+      <configuration>
+        <fileset id="web application context" name="MVC application context" removed="true" />
         <fileset id="fileset" name="Spring Application Context" removed="false">
           <file>file://$MODULE_DIR$/src/main/java/ru/itis/security/configs/ApplicationContextConfig.java</file>
           <file>file://$MODULE_DIR$/src/main/java/ru/itis/security/security/config/WebSecurityConfig.java</file>
