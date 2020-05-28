@@ -1,12 +1,20 @@
 <component name="ArtifactManager">
   <artifact type="exploded-war" name="Securities:war exploded">
-    <output-path>$PROJECT_DIR$/out/artifacts/Securities_war_exploded</output-path>
+    <output-path>$PROJECT_DIR$/target/Securities-0.0.1</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>true</exploded>
+        <module>Securities</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
     <root id="root">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
           <element id="module-output" name="Securities" />
         </element>
         <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: javax.servlet:javax.servlet-api:3.1.0" />
           <element id="library" level="project" name="Maven: org.postgresql:postgresql:42.2.9" />
           <element id="library" level="project" name="Maven: org.springframework:spring-jdbc:5.2.3.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-beans:5.2.3.RELEASE" />
@@ -27,10 +35,14 @@
           <element id="library" level="project" name="Maven: org.springframework.security:spring-security-acl:5.2.0.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-webmvc:5.2.0.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-context-support:3.2.4.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework.session:spring-session-jdbc:2.3.0.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework.session:spring-session-core:2.3.0.RELEASE" />
           <element id="library" level="project" name="Maven: javax.validation:validation-api:2.0.1.Final" />
         </element>
       </element>
-      <element id="library" level="project" name="Maven: org.springframework.session:spring-session-jdbc:unknown" />
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/target/Securities-0.0.1/META-INF/MANIFEST.MF" />
+      </element>
       <element id="javaee-facet-resources" facet="Securities/web/Web" />
     </root>
   </artifact>

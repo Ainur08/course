@@ -82,25 +82,25 @@ public class ApplicationContextConfig {
         return freeMarkerConfigurer;
     }
 
-    @Bean
-    public LocalValidatorFactoryBean localValidatorFactoryBean(MessageSource messageSource) {
-        LocalValidatorFactoryBean localValidatorFactoryBean = new LocalValidatorFactoryBean();
-        localValidatorFactoryBean.setValidationMessageSource(messageSource);
-        return localValidatorFactoryBean;
-    }
-
-    @Bean
-    public ReloadableResourceBundleMessageSource messageSource() {
-        ReloadableResourceBundleMessageSource messageSource = new ReloadableResourceBundleMessageSource();
-        messageSource.setBasename("messages_ru.properties");
-        messageSource.setDefaultEncoding("UTF-8");
-        return messageSource;
-    }
-
-    @Bean
-    public LocalValidatorFactoryBean getValidator() {
-        LocalValidatorFactoryBean bean = new LocalValidatorFactoryBean();
-        bean.setValidationMessageSource(messageSource());
-        return bean;
-    }
+//    @Bean
+//    public LocalValidatorFactoryBean localValidatorFactoryBean(MessageSource messageSource) {
+//        LocalValidatorFactoryBean localValidatorFactoryBean = new LocalValidatorFactoryBean();
+//        localValidatorFactoryBean.setValidationMessageSource(messageSource);
+//        return localValidatorFactoryBean;
+//    }
+//
+//    @Bean
+//    public ReloadableResourceBundleMessageSource messageSource() {
+//        ReloadableResourceBundleMessageSource messageSource = new ReloadableResourceBundleMessageSource();
+//        messageSource.setBasename("messages_ru.properties");
+//        messageSource.setDefaultEncoding("UTF-8");
+//        return messageSource;
+//    }
+//
+//    @Bean
+//    public LocalValidatorFactoryBean getValidator() {
+//        LocalValidatorFactoryBean bean = new LocalValidatorFactoryBean();
+//        bean.setValidationMessageSource(messageSource());
+//        return bean;
+//    }
 }

@@ -104,11 +104,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ru/itis/security/configs/ApplicationContextConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="367">
-              <caret line="94" column="50" lean-forward="true" selection-start-line="94" selection-start-column="50" selection-end-line="94" selection-end-column="50" />
+            <state relative-caret-position="180">
+              <caret line="62" column="36" lean-forward="true" selection-start-line="62" selection-end-line="65" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1648#1649#0" expanded="true" />
@@ -118,11 +118,50 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ru/itis/security/repositories/UsersRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="7" column="16" selection-start-line="7" selection-end-line="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/b1c99536-df88-4f0b-918b-a8018fa38cd9/console_5.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="das://b1c99536-df88-4f0b-918b-a8018fa38cd9/database/security/schema/public/table/spring_session">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ru/itis/security/configs/SessionConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="78" selection-start-line="14" selection-start-column="78" selection-end-line="14" selection-end-column="78" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1802">
-              <caret line="106" column="21" selection-start-line="106" selection-start-column="21" selection-end-line="106" selection-end-column="21" />
+            <state relative-caret-position="340">
+              <caret line="100" column="27" selection-start-line="100" selection-start-column="27" selection-end-line="100" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -130,17 +169,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/templates/signIn.ftlh">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+            <state relative-caret-position="85">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
@@ -168,40 +198,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/templates/signUp.ftlh">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ru/itis/security/dto/SignUpForm.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="204">
               <caret line="12" column="54" selection-start-line="12" selection-start-column="54" selection-end-line="12" selection-end-column="54" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/messages_ru.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ru/itis/security/controller/ProfileController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -240,15 +240,17 @@
         <option value="$PROJECT_DIR$/src/main/java/ru/itis/security/models/User.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/itis/security/security/config/WebSecurityConfig.java" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/b1c99536-df88-4f0b-918b-a8018fa38cd9/console_4.sql" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/ru/itis/security/dto/ProfileForm.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/itis/security/controller/SignUpController.java" />
         <option value="$PROJECT_DIR$/src/main/web/WEB-INF/templates/signUp.ftlh" />
         <option value="$PROJECT_DIR$/src/main/resources/messages_ru.properties" />
         <option value="$PROJECT_DIR$/src/main/java/ru/itis/security/dto/SignUpForm.java" />
         <option value="$PROJECT_DIR$/src/main/web/WEB-INF/dispatcherServlet-servlet.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/itis/security/configs/SessionConfig.java" />
         <option value="$PROJECT_DIR$/src/main/web/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/java/ru/itis/security/configs/ApplicationContextConfig.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/b1c99536-df88-4f0b-918b-a8018fa38cd9/console_5.sql" />
       </list>
     </option>
   </component>
@@ -437,7 +439,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Course" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
@@ -554,15 +556,16 @@
       <workItem from="1586302648856" duration="8181000" />
       <workItem from="1587390520769" duration="1186000" />
       <workItem from="1588174416266" duration="289000" />
-      <workItem from="1590590515738" duration="17703000" />
+      <workItem from="1590590515738" duration="21496000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27359000" />
+    <option name="totallyTimeSpent" value="31152000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12953092" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -617,10 +620,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/itis/security/services/SignUpService.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/applicationContext.xml" />
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/dispatcher-servlet.xml" />
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/dispatcherServlet-servlet.xml" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/b1c99536-df88-4f0b-918b-a8018fa38cd9/console.sql">
@@ -658,13 +657,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/itis/security/repositories/UsersRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="7" column="16" selection-start-line="7" selection-end-line="8" />
         </state>
       </provider>
     </entry>
@@ -812,13 +804,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://b1c99536-df88-4f0b-918b-a8018fa38cd9/database/security/schema/public/table/spring_session">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/itis/security/dto/UserDto.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="169">
@@ -888,17 +873,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/web.xml">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="340">
+          <caret line="100" column="27" selection-start-line="100" selection-start-column="27" selection-end-line="100" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/itis/security/configs/SessionConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1802">
-          <caret line="106" column="21" selection-start-line="106" selection-start-column="21" selection-end-line="106" selection-end-column="21" />
+        <state relative-caret-position="238">
+          <caret line="14" column="78" selection-start-line="14" selection-start-column="78" selection-end-line="14" selection-end-column="78" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
@@ -909,15 +904,36 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/b1c99536-df88-4f0b-918b-a8018fa38cd9/console_5.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://b1c99536-df88-4f0b-918b-a8018fa38cd9/database/security/schema/public/table/spring_session">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/itis/security/configs/ApplicationContextConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="94" column="50" lean-forward="true" selection-start-line="94" selection-start-column="50" selection-end-line="94" selection-end-column="50" />
+        <state relative-caret-position="180">
+          <caret line="62" column="36" lean-forward="true" selection-start-line="62" selection-end-line="65" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1648#1649#0" expanded="true" />
             <element signature="e#1707#1708#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/itis/security/repositories/UsersRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="7" column="16" selection-start-line="7" selection-end-line="8" />
         </state>
       </provider>
     </entry>
@@ -932,7 +948,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>

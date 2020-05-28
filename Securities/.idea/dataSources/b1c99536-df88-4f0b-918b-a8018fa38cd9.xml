@@ -48,7 +48,7 @@
       <ObjectId>65675</ObjectId>
       <StateNumber>1572</StateNumber>
       <Owner>postgres</Owner>
-      <IntrospectionStateNumber>1632</IntrospectionStateNumber>
+      <IntrospectionStateNumber>1644</IntrospectionStateNumber>
       <Current>1</Current>
       <Visible>1</Visible>
       <Relations>sequence|table|65681|65676|1
@@ -122,7 +122,7 @@
       <Comment>standard public schema</Comment>
       <StateNumber>352</StateNumber>
       <Owner>postgres</Owner>
-      <IntrospectionStateNumber>1633</IntrospectionStateNumber>
+      <IntrospectionStateNumber>1645</IntrospectionStateNumber>
       <Current>1</Current>
       <Visible>1</Visible>
     </schema>
@@ -203,9 +203,14 @@
     <table id="32" parent="21" name="spring_session">
       <ObjectId>65689</ObjectId>
       <Owner>postgres</Owner>
-      <StateNumber>1631</StateNumber>
+      <StateNumber>1643</StateNumber>
     </table>
-    <column id="33" parent="30" name="id">
+    <table id="33" parent="21" name="spring_session_attributes">
+      <ObjectId>65697</ObjectId>
+      <Owner>postgres</Owner>
+      <StateNumber>1643</StateNumber>
+    </table>
+    <column id="34" parent="30" name="id">
       <Position>1</Position>
       <DataType>integer|0s</DataType>
       <NotNull>1</NotNull>
@@ -213,137 +218,201 @@
       <DefaultExpression>nextval(&apos;itis_user_id_seq&apos;::regclass)</DefaultExpression>
       <TypeId>23</TypeId>
     </column>
-    <column id="34" parent="30" name="email">
+    <column id="35" parent="30" name="email">
       <Position>2</Position>
       <DataType>varchar(65)|0s</DataType>
       <NotNull>1</NotNull>
       <StateNumber>1575</StateNumber>
       <TypeId>1043</TypeId>
     </column>
-    <column id="35" parent="30" name="password">
+    <column id="36" parent="30" name="password">
       <Position>3</Position>
       <DataType>varchar(65)|0s</DataType>
       <NotNull>1</NotNull>
       <StateNumber>1575</StateNumber>
       <TypeId>1043</TypeId>
     </column>
-    <index id="36" parent="30" name="itis_user_pkey">
+    <index id="37" parent="30" name="itis_user_pkey">
       <ObjectId>65679</ObjectId>
       <StateNumber>1575</StateNumber>
       <ColNames>id</ColNames>
       <Unique>1</Unique>
       <Primary>1</Primary>
     </index>
-    <key id="37" parent="30" name="itis_user_pkey">
+    <key id="38" parent="30" name="itis_user_pkey">
       <ObjectId>65680</ObjectId>
       <StateNumber>1575</StateNumber>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
       <UnderlyingIndexName>itis_user_pkey</UnderlyingIndexName>
     </key>
-    <column id="38" parent="31" name="username">
+    <column id="39" parent="31" name="username">
       <Position>1</Position>
       <DataType>varchar(64)|0s</DataType>
       <NotNull>1</NotNull>
       <StateNumber>1622</StateNumber>
       <TypeId>1043</TypeId>
     </column>
-    <column id="39" parent="31" name="series">
+    <column id="40" parent="31" name="series">
       <Position>2</Position>
       <DataType>varchar(64)|0s</DataType>
       <NotNull>1</NotNull>
       <StateNumber>1622</StateNumber>
       <TypeId>1043</TypeId>
     </column>
-    <column id="40" parent="31" name="token">
+    <column id="41" parent="31" name="token">
       <Position>3</Position>
       <DataType>varchar(64)|0s</DataType>
       <NotNull>1</NotNull>
       <StateNumber>1622</StateNumber>
       <TypeId>1043</TypeId>
     </column>
-    <column id="41" parent="31" name="last_used">
+    <column id="42" parent="31" name="last_used">
       <Position>4</Position>
       <DataType>timestamp|0s</DataType>
       <NotNull>1</NotNull>
       <StateNumber>1622</StateNumber>
       <TypeId>1114</TypeId>
     </column>
-    <index id="42" parent="31" name="persistent_logins_pkey">
+    <index id="43" parent="31" name="persistent_logins_pkey">
       <ObjectId>65687</ObjectId>
       <StateNumber>1622</StateNumber>
       <ColNames>series</ColNames>
       <Unique>1</Unique>
       <Primary>1</Primary>
     </index>
-    <key id="43" parent="31" name="persistent_logins_pkey">
+    <key id="44" parent="31" name="persistent_logins_pkey">
       <ObjectId>65688</ObjectId>
       <StateNumber>1622</StateNumber>
       <ColNames>series</ColNames>
       <Primary>1</Primary>
       <UnderlyingIndexName>persistent_logins_pkey</UnderlyingIndexName>
     </key>
-    <column id="44" parent="32" name="primary_id">
+    <column id="45" parent="32" name="primary_id">
       <Position>1</Position>
       <DataType>char(36)|0s</DataType>
       <NotNull>1</NotNull>
       <StateNumber>1631</StateNumber>
       <TypeId>1042</TypeId>
     </column>
-    <column id="45" parent="32" name="session_id">
+    <column id="46" parent="32" name="session_id">
       <Position>2</Position>
       <DataType>char(36)|0s</DataType>
       <NotNull>1</NotNull>
       <StateNumber>1631</StateNumber>
       <TypeId>1042</TypeId>
     </column>
-    <column id="46" parent="32" name="creation_time">
+    <column id="47" parent="32" name="creation_time">
       <Position>3</Position>
       <DataType>bigint|0s</DataType>
       <NotNull>1</NotNull>
       <StateNumber>1631</StateNumber>
       <TypeId>20</TypeId>
     </column>
-    <column id="47" parent="32" name="last_access_time">
+    <column id="48" parent="32" name="last_access_time">
       <Position>4</Position>
       <DataType>bigint|0s</DataType>
       <NotNull>1</NotNull>
       <StateNumber>1631</StateNumber>
       <TypeId>20</TypeId>
     </column>
-    <column id="48" parent="32" name="max_inactive_interval">
+    <column id="49" parent="32" name="max_inactive_interval">
       <Position>5</Position>
       <DataType>integer|0s</DataType>
       <NotNull>1</NotNull>
       <StateNumber>1631</StateNumber>
       <TypeId>23</TypeId>
     </column>
-    <column id="49" parent="32" name="expiry_time">
+    <column id="50" parent="32" name="expiry_time">
       <Position>6</Position>
       <DataType>bigint|0s</DataType>
       <NotNull>1</NotNull>
       <StateNumber>1631</StateNumber>
       <TypeId>20</TypeId>
     </column>
-    <column id="50" parent="32" name="principal_name">
+    <column id="51" parent="32" name="principal_name">
       <Position>7</Position>
       <DataType>varchar(100)|0s</DataType>
       <StateNumber>1631</StateNumber>
       <TypeId>1043</TypeId>
     </column>
-    <index id="51" parent="32" name="spring_session_pk">
+    <index id="52" parent="32" name="spring_session_pk">
       <ObjectId>65692</ObjectId>
       <StateNumber>1631</StateNumber>
       <ColNames>primary_id</ColNames>
       <Unique>1</Unique>
       <Primary>1</Primary>
     </index>
-    <key id="52" parent="32" name="spring_session_pk">
+    <index id="53" parent="32" name="spring_session_ix1">
+      <ObjectId>65694</ObjectId>
+      <StateNumber>1640</StateNumber>
+      <ColNames>session_id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="54" parent="32" name="spring_session_ix2">
+      <ObjectId>65695</ObjectId>
+      <StateNumber>1641</StateNumber>
+      <ColNames>expiry_time</ColNames>
+    </index>
+    <index id="55" parent="32" name="spring_session_ix3">
+      <ObjectId>65696</ObjectId>
+      <StateNumber>1642</StateNumber>
+      <ColNames>principal_name</ColNames>
+    </index>
+    <key id="56" parent="32" name="spring_session_pk">
       <ObjectId>65693</ObjectId>
       <StateNumber>1631</StateNumber>
       <ColNames>primary_id</ColNames>
       <Primary>1</Primary>
       <UnderlyingIndexName>spring_session_pk</UnderlyingIndexName>
     </key>
+    <column id="57" parent="33" name="session_primary_id">
+      <Position>1</Position>
+      <DataType>char(36)|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>1643</StateNumber>
+      <TypeId>1042</TypeId>
+    </column>
+    <column id="58" parent="33" name="attribute_name">
+      <Position>2</Position>
+      <DataType>varchar(200)|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>1643</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="59" parent="33" name="attribute_bytes">
+      <Position>3</Position>
+      <DataType>bytea|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>1643</StateNumber>
+      <TypeId>17</TypeId>
+    </column>
+    <index id="60" parent="33" name="spring_session_attributes_pk">
+      <ObjectId>65703</ObjectId>
+      <StateNumber>1643</StateNumber>
+      <ColNames>session_primary_id
+attribute_name</ColNames>
+      <Unique>1</Unique>
+      <Primary>1</Primary>
+    </index>
+    <key id="61" parent="33" name="spring_session_attributes_pk">
+      <ObjectId>65704</ObjectId>
+      <StateNumber>1643</StateNumber>
+      <ColNames>session_primary_id
+attribute_name</ColNames>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>spring_session_attributes_pk</UnderlyingIndexName>
+    </key>
+    <foreign-key id="62" parent="33" name="spring_session_attributes_fk">
+      <ObjectId>65705</ObjectId>
+      <StateNumber>1643</StateNumber>
+      <ColNames>session_primary_id</ColNames>
+      <RefTableId>65689</RefTableId>
+      <RefColPositions>1</RefColPositions>
+      <RefTableName>spring_session</RefTableName>
+      <RefKeyName>spring_session_pk</RefKeyName>
+      <RefColNames>primary_id</RefColNames>
+      <OnDelete>cascade</OnDelete>
+    </foreign-key>
   </database-model>
 </dataSource>
